@@ -1,0 +1,719 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.home{
+    margin-bottom: 120px;
+}
+
+
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    height: 60px;
+    background-color: #fff;
+    z-index: 997;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+
+    
+}
+.nav .logo{
+    width: 45%;
+    margin-left: 100px;
+}
+.nav .logo ::first-letter{
+    font-size: 22px;
+    color: #ed893d;
+}
+.nav .links{
+    width: 45%;
+    display: flex;
+
+}
+.nav .links ul{
+    list-style-type: none;
+}
+.nav .links ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+.toggoller i{
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    display: none;
+}
+@media(max-width:600px){
+    .nav .links{
+        display: none;
+
+    }
+    .toggoller i{
+        display:block;
+    }
+}
+
+        
+        
+    
+
+    
+
+.home{
+    text-align: center;
+    margin-top: 100px;
+}
+.home .header h1{
+    color: #ed893d;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 40px 0px 0px 20px;
+}
+.home .header h3{
+    opacity: .5;
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.home .homebutton button{
+    padding: 20px;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    color: #ed893d;
+    background: #fff;
+    border-color: transparent;
+    font-weight: 400;
+    border: 2px solid #ed893d;
+
+}
+.home .homeicon i{
+    margin: 0px 10px; 
+    font-size: 20px;
+
+}
+.home .homeicon a{
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+}
+.home .homeicon .appstore{
+    margin-right: 40px;
+}
+.home .homeicon{
+    margin-top: 20px;
+}
+@media(max-width:600px){
+    .home .header h1{
+        margin: 0px 0px px 20px;
+    }
+    .home .homeicon i{
+        margin: 0px 10px; 
+        font-size: 30px;
+
+    }
+    .home .homeimg img{
+        width: 80%;
+    }
+    .home .header h1{
+        font-size: 40px;
+    }
+    .home .header h3 {font-size: 20px;}
+    .home .homeicon i {font-size: 18px;
+       margin-top: 30px;
+    
+    }
+    .home .homebutton button{
+        margin-top: 30px;
+    }
+}
+   
+
+   
+    
+
+/* endhome */
+
+
+
+.about .aboutheader h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    margin: 80px 0px;
+    font-size: 45px;
+    opacity: .7;
+}
+.about .mission{
+    width: 45%;
+   
+    text-align: center;
+    padding: 20px 0;
+}
+.about .mission img{
+    height: 60px;
+    width: 100px;
+    padding: 20px 0px;
+}
+.about .mission h2{
+
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.about .mission p{
+    opacity: .7; 
+/* opacity: تقلل شفافيه; */
+padding: 20px;
+}
+.about .mission:hover{
+    box-shadow: 5px 10px 10px 10px #888888;
+} 
+.about .VISION{
+    width: 45%;
+    
+    text-align: center;
+    padding: 20px 0;
+}
+.about .VISION:hover{
+    box-shadow: 5px 10px 10px 10px #888888;
+} 
+.about .VISION img{
+    height: 60px;
+    width: 100px;
+    padding: 20px 0px;
+}
+.about .VISION h2{
+
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.about .VISION p{
+    opacity: .7; 
+/* opacity: تقلل شفافيه; */
+padding: 20px;
+}
+.about .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width:600px){
+    .about .aboutheader h1{
+        font-size: 35px;
+    }
+    .about .VISION{
+        width: 90%;
+    }
+    .about .mission{
+        width: 90%;
+    }
+}
+
+/* end about */
+
+.features .featuresheader{
+    text-align: center;
+
+
+}
+.features .featuresheader h1{
+    font-size: 42px;
+    margin: 30px 0;
+    font-family: "Roboto", sans-serif;
+    opacity: .5;
+    font-weight: 100;
+}
+.features .featuresheader p{
+    opacity: .5;
+}
+.features .cardrow1{
+    /* justify-content:لعمل المسافات ; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.features .cardrow1 h3{
+    margin: 20px 0;
+}
+.features .cardrow2  h3{
+    margin: 20px 0;
+}
+.features .cardrow1 .card1{
+    width: 30%;
+    text-align: center;
+}
+.features .cardrow1 .card1 img{
+    width: 100px;
+    height: 80px;
+    margin: 20px 0;
+}
+.features .cardrow1 .card1:hover{
+    box-shadow: 5px 10px 10px 10px #888888;
+   
+}
+.features .cardrow2{
+    /* justify-content:لعمل المسافات ; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 80px;
+}
+.features .cardrow2 .card2{
+    width: 46%;
+    text-align: center;
+}
+.features .cardrow2 .card2 img{
+    width: 100px;
+    height: 80px;
+    margin: 20px 0;
+}
+.features .cardrow2 .card2:hover{
+    box-shadow: 5px 10px 10px 10px #888888;
+   
+}
+@media(max-width:600px){
+    .features .cardrow1 .card1{
+        width: 90%;
+    }
+    .features .cardrow2{
+        display: none;  
+    }
+}
+/* end feture */
+.timeline{
+    margin: 180px 0;
+}
+.timeline .timelineheader{
+    text-align: center;
+
+
+}
+.timeline .timelineheader h1{
+    font-size: 42px;
+
+    margin: 30px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    opacity: .5;
+}
+
+.timeline .cardrow1{
+    /* justify-content:لعمل المسافات ; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.timeline .cardrow1 h3{
+    margin: 20px 0;
+}
+
+.timeline .cardrow1 .card1{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+}
+.timeline .cardrow1 .card1 i{
+   
+    font-size: 42px;
+}
+.timeline .cardrow1 .card1:hover{
+    box-shadow: 5px 10px 10px 10px #888888;
+   
+}
+@media(max-width:600px){
+    .timeline .cardrow1 .card1{
+        width: 90%;
+        padding-top: 20px;
+    }
+
+}
+
+
+
+/* timeline */
+
+
+.contact{
+    margin: 80px 30px;
+}
+
+
+
+.contact .contactheader{
+    text-align: center;
+   
+}
+.contact .contactheader h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    opacity: .5;
+}
+.contact .contactrow .info i{
+
+    margin: 0px 10px;
+    font-size: 28px;
+    color: #ed893d;
+}
+
+.contact .contactrow .info p{
+    align-items: center;
+}
+
+.contact .contactrow .info .address ,.email ,.phone{
+    display: flex;
+    margin: 30px 0px;
+}
+.contact .contactrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .contactrow .info{
+    width: 44%;
+  
+    
+}
+.contact .contactrow .contactform{
+    width: 44%;
+    text-align: center;
+}
+.contact .contactrow .contactform input{
+    width: 80%;
+   margin-bottom: 10px;
+    height: 40px;
+    opacity: .9;
+}
+.contact .contactrow .contactform input:focus{
+    border: 2px solid #ed893d;
+    outline: none;
+}
+.contact .contactrow .contactform  textarea{
+    width: 80%;
+    height: 120px;
+}
+.contact .contactrow .contactform p{
+    align-items: center;
+    text-align: center;
+}
+
+.contact .contactrow .contactform button{
+    margin: 10px 0px;
+   color: #fff;
+    background-color: #ed893d;
+    width: 180px;
+    height: 50px;
+    border-color: #ed893d;
+    font-size: 16px;
+    transition: all .5s;
+    
+}
+.contact .contactrow .contactform button:hover{
+    background-color: #92d283;
+    border-color: transparent;
+}
+
+    
+@media (max-width: 600px){
+    .contact{
+        margin: 0px 30px;
+    }
+    .contact .contactrow{
+        display: block;
+    }
+    .contact .contactrow .info{
+        width: 100%;
+    }
+    .contact .contactrow .contactform{
+        text-align: left;
+        width: 100%;
+    }
+    .contact .contactrow .contactform{
+        padding: 20px 0px;}
+        .contact .contactrow .contactform input{
+            width: 100%;
+        }
+        .contact .contactrow .contactform  textarea{
+            width: 100%;
+        }
+}
+
+.footer{
+    background: #2a2c30;
+    padding-top: 1px;
+}
+.footer .copyright{
+    
+    background: #fff;
+    margin-top: 10px;
+    text-align: center;
+    padding: 25px
+}
+.footer .copyright p{
+    padding-bottom: 10px;
+}
+.footer .copyright a{
+    text-decoration: none;
+    color: #ed893d;
+    font-style: italic;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+      
+
+
+.signincontainer {
+    margin: auto;
+   
+      width: 60%;
+     
+      height: auto;
+      border-radius: 10px;
+      margin-top: 150px;
+      margin-bottom: 100px;
+      text-align: center;
+      border: 1px #626262 solid;
+     
+  }
+  .signincontainer .header{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 2;
+      background-color:#dee2e6;
+      border-radius: 10px 10px 0px 0px;
+     
+      
+  }
+  .signincontainer .signinemail{
+      margin-top: 20px;
+  }
+  .signincontainer .loginform .signinemail {
+      display: flex;
+   
+     
+  }
+  
+  .signincontainer .loginform .signinemail input{
+      width: 60%;
+      height: 40px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border-color: transparent;
+      outline:1px #dee2e6 solid;
+  }
+  .signincontainer .loginform .signinemail label{
+      width: 20%;
+      text-align: end;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 5px 20px;
+  }
+  .signincontainer .loginform .signinpassword {
+      display: flex;
+   
+     
+  }
+  .signincontainer .loginform .signinpassword input{
+      width: 60%;
+      height: 40px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border-color: transparent;
+      outline:1px #dee2e6 solid;
+  }
+  .signincontainer .loginform .signinpassword label{
+      width: 20%;
+      text-align: end;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 5px 20px;
+  }
+  
+  .signincontainer .loginform .rememberme label{
+   padding: 0px 12px;
+   font-size: 18px;
+   font-weight: 700;
+  }
+  .signincontainer .loginform .rememberme input{
+      margin: 0px 80px 0px 0px;
+  }
+  .signincontainer .loginform .rememberme {
+      margin-bottom: 20px;
+  }
+  
+  .signincontainer .loginform .loginbutton{
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 30px;
+  }
+  .signincontainer .loginform .loginbutton a{
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      margin-top: 6px;
+  }
+  .signincontainer .loginform .loginbutton button{
+      padding: 10px 40px;
+      background-color: #ed893d;
+      color:#fff;
+      border-color: transparent;
+      border-radius: 12px;
+  }
+  .signincontainer .loginform .loginbutton button:hover{
+      background-color: #0d6efd;
+  }
+   .raudio{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+  }
+   .raudio .radiolabel{
+      width: 30%;
+      text-align: start;
+  
+     
+   }
+   .raudio .chosee{
+      
+      width: 60%;
+      text-align: start;
+   }
+  @media (max-width: 900px) {
+      .signincontainer{
+          width: 80%;
+          height: auto;
+        }
+        
+        .signincontainer .loginform .signinemail{
+          display: block;
+        }
+        .signincontainer .loginform .signinemail input{
+          display: block;
+          margin-bottom: 20px;
+          width: 90%;
+          margin: auto;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+        .signincontainer .loginform .signinpassword{
+          display: block;
+        }
+        .signincontainer .loginform .signinpassword input{
+          display: block;
+          margin-bottom: 20px;
+          width: 90%;
+          margin: auto;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+        .signincontainer .loginform .rememberme {
+          display: flex;
+          justify-content: center;
+        }
+        .signincontainer .loginform .rememberme input{
+          margin: 0px 120px 0px 0px;
+      }
+        .signincontainer .loginform .loginbutton{
+          margin-bottom: 20px;
+        }
+      
+  
+        .raudio {
+          display: block;
+        }
+        .raudio .chosee{
+          text-align: center;
+          width: 100%;
+          margin-top: 10px;
+        }
+      
+  
+  
+  
+        .raudio {
+          display: block;
+        }
+        .raudio .chosee{
+          text-align: center;
+          width: 100%;
+          margin-top: 10px;
+        }
+      
+  
+      
+  }
+  
+  @media (max-width: 650px){
+    .signincontainer{
+      width: 90%;
+      height: auto;
+    }
+    
+    .signincontainer .loginform .signinemail{
+      display: block;
+    }
+    .signincontainer .loginform .signinemail input{
+      display: block;
+      margin-bottom: 20px;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .signincontainer .loginform .signinpassword{
+      display: block;
+    }
+    .signincontainer .loginform .signinpassword input{
+      display: block;
+      margin-bottom: 20px;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .signincontainer .loginform .rememberme input{
+      margin: 10px 100px 10px 10px;
+    }
+    .signincontainer .loginform .loginbutton{
+      display: block;
+      margin-bottom: 20px;
+    }
+  
+    .signincontainer .loginform .loginbutton a{display: block;}
+    .signincontainer .loginform .loginbutton button{
+      margin: auto;
+      display: block;
+      text-align: center;
+    }
+    .raudio {
+      display: block;
+    }
+    .raudio .chosee{
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+  }
